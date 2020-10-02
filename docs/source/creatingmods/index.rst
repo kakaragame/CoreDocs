@@ -5,4 +5,5 @@ Creating a Kakara Core Mod
    :maxdepth: 2
    :titlesonly:
 
+   basic-mod.md
    mod-json.md
