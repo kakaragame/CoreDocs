@@ -11,10 +11,4 @@ Welcome to Kakara Core's documentation!
    :caption: Contents:
 
    creatingmods/index
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+   events/index
