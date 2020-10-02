@@ -10,7 +10,7 @@ Welcome to Kakara Core's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-
+   creatingmods/index
 
 Indices and tables
 ==================
