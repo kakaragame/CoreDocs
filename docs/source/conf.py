@@ -17,6 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 import sphinx_rtd_theme
+from recommonmark.parser import CommonMarkParser
 project = 'Kakara Core'
 copyright = '2020, Wyatt J Herkamp'
 author = 'Wyatt J Herkamp'
@@ -30,7 +31,7 @@ master_doc = 'index'
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = ['recommonmark', 'sphinx_rtd_theme'
+extensions = ['recommonmark', 'sphinx_rtd_theme', 'sphinx_markdown_tables'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -40,7 +41,11 @@ templates_path = ['_templates']
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
 exclude_patterns = []
-
+source_suffix = {
+    '.rst': 'restructuredtext',
+    '.txt': 'markdown',
+    '.md': 'markdown',
+}
 
 # -- Options for HTML output -------------------------------------------------
 
